@@ -1,5 +1,5 @@
 # filecarving
-Example of file Carving for hidden files in another files
+Example of file Carving for hidden files in another files(this is for jpg file)
 
 ## Installation
 
