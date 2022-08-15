@@ -3,7 +3,7 @@ Example of file Carving for hidden files in another files(this is for jpg file)
 
 ## Installation
 
-No need for extra package , just using re and os module ( os:linux)
+No need for extra package , just using re and os module ( os:linux )
 
 ## Usage
 
