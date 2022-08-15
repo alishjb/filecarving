@@ -4,7 +4,7 @@ username=username.replace('\n','')
 jpg_sof = b'\xff\xd8\xff' # jpeg files start with hex ff d8 ff 
 jpg_eof = b'\xff\xd9'     # jpeg files end with hex ff d8 ff
 sof_list,eof_list=[],[]   # creating an empty list for append start and end of hidden jpeg file in main file
-path=f'/home/{username}/Desktop/test_files/test.pdf' # address of file
+path=f'/home/{username}/Desktop/test_files/test.pdf' # address of file ( u can replate it with file name if main.py and target file is in same folder ) 
 file_handler= open(path,'rb') # reading main file
 data = file_handler.read() 
 for match in re.finditer(jpg_sof,data):
